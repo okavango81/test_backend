@@ -20,6 +20,7 @@
 - Alocar uma pessoa na tarefa que tenha o mesmo departamento (put/tarefas/alocar/{id})
 - Finalizar a tarefa (put/tarefas/finalizar/{id})
 - Listar pessoas trazendo nome, departamento, total horas gastas nas tarefas.(get/pessoas)
+* * Exemplo para a requisição  http://34.95.155.20:8082/pessoas
 - Buscar pessoas por nome e período, retorna média de horas gastas por tarefa. (get/pessoas/gastos)
 * * Exemplo para a requisição  http://34.95.155.20:8082/pessoas/gastos?param=camila
 - Listar 3 tarefas que estejam sem pessoa alocada com os prazos mais antigos. (get/tarefas/pendentes)
