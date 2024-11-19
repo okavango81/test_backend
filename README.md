@@ -11,7 +11,7 @@
 - Cada pessoa terá um id, nome, departamento e  lista de tarefas
 - Cada tarefa terá id, título, descrição, prazo, departamento, duração, pessoa alocada e se já foi finalizado.
 
-### Funcionalidades desejadas ( API EM EXECUÇÃO : http://34.95.155.20:8082 )
+### Funcionalidades desejadas ( API EM EXECUÇÃO : http://34.176.76.100:8081 )
 
 - Adicionar um pessoa (post/pessoas)
 - Alterar um pessoa (put/pessoas/{id})
