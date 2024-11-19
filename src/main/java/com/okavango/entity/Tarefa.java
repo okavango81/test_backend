@@ -18,10 +18,10 @@ public class Tarefa
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Lob
+    //@Lob
     private String titulo;
 
-    @Lob
+    //@Lob
     private String descricao;
 
     private LocalDate prazo;

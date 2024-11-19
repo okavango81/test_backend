@@ -13,6 +13,7 @@ import com.okavango.repository.TarefaRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -113,7 +114,8 @@ public class TarefaService
 
 
     public List<Tarefa> top3TarefasSemResponsavel() {
-        Pageable pageable = PageRequest.of(0, 3);
+        //Pageable pageable = PageRequest.of(0, 3);
+        Pageable pageable = PageRequest.of(0, 3, Sort.by("prazo").ascending());
         return tarefaRepository.findTop3ByResponsavelIsNullOrderByPrazoAsc(pageable);
     }//*********
 
