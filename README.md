@@ -5,7 +5,7 @@
 
 - A API deve ser REST
 - Linguagem utilizada JAVA
-- Framework Quarkus* / SpringBoot.
+- Framework SpringBoot.
 - Banco de dados PostgreSQL
 - Deve ter testes unitários
 - Cada pessoa terá um id, nome, departamento e  lista de tarefas
